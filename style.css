@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     color: #4b4b4b;
 }
-.nameColor {
+.TextColor {
     color: #FFA500;
 }
 
@@ -18,6 +18,7 @@ p {
     width: 40%;
     float: left;
     margin-left: 5%;
+    padding-left: 2%;
 }
 
 .half-width img {
@@ -65,9 +66,6 @@ h3 {
     padding: 90px 0;
 }
 
-.about-area {
-    padding: 80px 0;
-}
 
 .about-area {
     padding: 80px 0;
@@ -75,4 +73,55 @@ h3 {
     background-repeat: no-repeat;
     display: inline-block;
     background-position: right;
+}
+
+.dream-text {
+    padding-right: 15px;
+}
+
+.experience {
+    padding-bottom: 10px;
+    padding-left: 5%;
+    font-size: 40px;
+}
+
+.first-card h2, .second-card h2 {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+.first-card, .second-card {
+    box-shadow: 10px 10px 40px 0px #a6a6a6;
+    border-radius: 10px;
+}
+.card-text {
+    padding: 45px;
+    height: 225px;
+}
+
+.experience-area {
+    padding-bottom: 100px;
+    padding-top: 20px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: left;
+    background-size: 7%;
+}
+
+.first-card {
+    border-left: 7px solid;
+    border-image: linear-gradient(#7C2FD8,#00FCFF);
+    border-image-slice: 1;
+}
+
+.second-card {
+    border-left: 7px solid;
+    border-image: linear-gradient(#FF674A,#FF9A75);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
