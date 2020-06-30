@@ -280,4 +280,8 @@ footer {
     .experience {
         font-size: 40px;
     }
+    .half-width img {
+        padding: 10px 0;
+        width: 112%;
+    }
  } 
