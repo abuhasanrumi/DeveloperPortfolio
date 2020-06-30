@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #1B1B1B;
+}
+p {
+    color: #4b4b4b;
+}
+.nameColor {
+    color: #FFA500;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.half-width img {
+    width: 112%;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+}
+h3 {
+    font-weight: 500;
+}
+.hero {
+    background-image: url("images/top-banner.png");
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.hero-text {
+    padding: 60px 0px;
+    padding-left: 15px;
+}
+
+.hirebtn {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(180deg, #7B31D7,#6553DC, #536ADF);
+    padding: 10px 40px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.second-img img {
+    width: 100%;
+}
+
+.second-text {
+    display: inline-block;
+    padding: 90px 0;
+}
+
+.about-area {
+    padding: 80px 0;
+}
+
+.about-area {
+    padding: 80px 0;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: right;
+}
