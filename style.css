@@ -125,6 +125,9 @@ h3 {
 footer {
     text-align: center;
 }
+.second-img.half-width img {
+    width: 100%;
+}
 
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
@@ -283,5 +286,8 @@ footer {
     .half-width img {
         padding: 10px 0;
         width: 112%;
+    }
+    .hero-text {
+        padding-left: 30px;
     }
  } 
